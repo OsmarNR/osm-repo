@@ -11,7 +11,7 @@ export const databaseProviders = [
         username: 'root',
         password: '',
         database: 'mi_bd',
-        entities: [__dirname + '/../**/*.model{.ts,.js}'],
+        entities: [__dirname + '/../**/*.entity{.ts,.js}'],
         synchronize: true,
       }),
   },
